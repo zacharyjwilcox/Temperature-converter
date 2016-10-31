@@ -1,5 +1,13 @@
+//
+//  main.c
+//  temp lab
+//
 //  Created by Zach Wilcox on 10/1/16.
+//  Copyright © 2016 Zach Wilcox. All rights reserved.
+//
 /*Zach Wilcox Lab1*/
+#include <stdio.h>
+
 int main()
 {
     int choice;
@@ -42,7 +50,9 @@ label1:
         printf("\n Please enter a valid choice.");
         goto label1;
     }
+    return 0;
 label2:
     while(choice==3){
         break;
     }
+}
